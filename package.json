@@ -1,0 +1,36 @@
+{
+  "name": "new-calcpa-swe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "material-ui": "^0.16.7",
+    "moment": "^2.17.1",
+    "next": "^2.0.0-beta",
+    "pui-react-overlay-trigger": "^7.4.0",
+    "pui-react-tooltip": "^7.4.0",
+    "react-big-calendar": "^0.12.3",
+    "react-blocks": "^1.1.4",
+    "react-cookie": "^1.0.4",
+    "react-scrollbar": "^0.5.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "underscore": "^1.8.3"
+  },
+  "next": {
+    "cdn": false
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "isomorphic-style-loader": "^1.1.0",
+    "style-loader": "^0.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC"
+}
